@@ -5,16 +5,8 @@
  */
 
 // http相关配置
-// 接口在线文档 https://documenter.getpostman.com/view/9587481/SW7dWmts
 // export const baseUrl = process.env.NODE_ENV === 'development' ?
-//   'http://172.19.113.1:3000/' : 'http://114.116.110.224:3005/'
-// export let baseUrl = 'http://rap2api.taobao.org/app/mock/243547/' //外网测试使用
-// export let baseUrl = 'http://2h805p5374.qicp.vip:26936/' //外网测试使用
-// export let baseUrl = 'http://127.0.0.1:3000/'
-// export let baseUrl = 'http://192.168.4.13:3000/'   //张工电脑
-// export let baseUrl = 'http://192.168.4.8:3000/'
-export let baseUrl = 'http://192.168.4.213:3000/'
-// export let baseUrl = 'http://114.116.110.224:3005/'
+//   'http://172.19.113.1:3000/' : 'http://114.11.11.99:3005/'
 
 
 // 一些系统配置
