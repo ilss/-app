@@ -5,5 +5,3 @@
 
 > 1. 在目录下运行 npm i
 > 2. 用 HBuilder X 编辑器导入项目，运行项目。 编辑器下载地址：[https://www.dcloud.io/hbuilderx.html](https://www.dcloud.io/hbuilderx.html)
-
-* 版权所有 天津市天堰科技股份有限公司
