@@ -1,0 +1,105 @@
+/*
+ * @Author: Liang Liang #skrjs.com
+ * @Date: 2020-03-18 08:55:11
+ * @Description: 练习&考试页面POP层样式
+ */
+$levelOneMenuLineHihgt: 100upx;
+.fixed-bottom {
+  padding-bottom: 200upx !important;
+}
+.popup-list-item {
+  display: flex;
+  align-items: center;
+  font-size: $uni-font-size-base;
+  line-height: $uni-font-size-base;
+  color: $uni-text-color-sub;
+  border-bottom: 1px solid #efefef;
+  background-color: #fff;
+  padding: 30upx $ty-content-padding;
+  .label {
+    flex: 1;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  .cost {
+    font-size: $uni-font-size-sm;
+    width: 130upx;
+    text-align: right;
+  }
+}
+.popup-exam-history {
+  height: calc(100vh - 140rpx);
+  background-color: $uni-bg-color-grey;
+  z-index: 99999;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  .pop-title {
+    border-bottom: 1px solid $uni-border-color;
+  }
+  .cont {
+    background-color: #fff;
+    counter-reset: one;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    flex: 1;
+  }
+  .explain-title {
+    line-height: 2;
+  }
+  .uni-flex {
+    align-items: center;
+    background-color: #fff;
+  }
+  .iconguanbi {
+    width: 60upx;
+  }
+  .video-player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    min-height: 460upx;
+  }
+  .list-time {
+    margin-top: 10upx;
+    margin-bottom: 30upx;
+  }
+  .uni-flex .title {
+    font-size: $uni-font-size-base;
+    line-height: 96upx;
+    text-align: center;
+    text-indent: 60upx;
+    flex: 1;
+  }
+  .check-textarea {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 665upx;
+    border-radius: 10upx;
+    padding: 10upx;
+  }
+}
+.treatment-list {
+  line-height: 100upx;
+  font-size: $uni-font-size-lg;
+  border-bottom: 1px solid #efefef;
+  padding: 0 $ty-content-padding;
+}
+
+.search-hint {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  .iconfont {
+    font-size: 120upx;
+    padding: 100upx 0 0;
+    color: #d7ecfb;
+  }
+  .txt {
+    color: $uni-text-color-grey;
+    line-height: 1.4;
+  }
+}

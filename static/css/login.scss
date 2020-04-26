@@ -1,0 +1,94 @@
+/*
+ * @Author: Liang Liang #skrjs.com
+ * @Date: 2020-03-18 08:55:11
+ * @Description: 登录页样式
+ */
+$inputWidth: 568upx;
+$inputPadding: 24upx;
+$inputHeight: 86upx;
+$fontColor: #343639;
+.login {
+  display: flex;
+  flex-direction: column;
+  color: $fontColor;
+  width: 750upx;
+  text-align: center;
+  .cover {
+    background: url(../../static/img/login/shouyepeitu@2x.jpg) no-repeat;
+    background-size: cover;
+    flex: 1;
+    position: relative;
+    .logo {
+      position: absolute;
+      width: 240upx;
+      height: 240upx;
+      left: 50%;
+      margin-left: -120upx;
+      bottom: -120upx;
+    }
+  }
+  .content {
+    height: 780upx;
+    overflow: hidden;
+    padding-top: 170upx;
+    background-color: #fff;
+  }
+  .primary {
+    width: $inputWidth;
+    height: $inputHeight;
+    line-height: $inputHeight;
+    font-size: 32upx;
+    border-radius: 80px;
+    margin: 64upx auto 0 auto;
+  }
+}
+
+.app-name {
+  font-size: 44upx;
+  line-height: 70upx;
+  text-align: center;
+}
+.app-name-en {
+  font-size: 32upx;
+  line-height: 50upx;
+  text-align: center;
+  margin-bottom: 58upx;
+}
+
+.group {
+  width: $inputWidth;
+  text-align: left;
+  margin: 60upx auto;
+  .title {
+    font-size: $uni-font-size-base + 2;
+    margin-left: 4upx;
+    margin-bottom: 12upx;
+  }
+}
+
+.m-input {
+  width: $inputWidth - 40;
+  height: $inputHeight;
+  border: 1px solid #e6e6e6;
+  border-radius: 80px;
+  padding: 0 20upx;
+  margin: 0 0 20upx 0;
+  text-align: left;
+}
+
+.action-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  .navigator {
+    color: $uni-color-primary;
+    margin-top: 50upx;
+    font-size: $uni-font-size-base;
+    background-color: $uni-bg-color-grey;
+    border-radius: 100px; 
+    padding: 0upx 20upx;
+  }
+  .iconjiantou {
+    font-size: 28upx;
+  }
+}

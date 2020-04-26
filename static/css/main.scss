@@ -1,0 +1,76 @@
+/*
+ * @Author: Liang Liang #skrjs.com
+ * @Date: 2020-03-18 08:55:11
+ * @Description: 主屏样式
+ */
+.page {
+	width: 100vw;
+	padding-top: 20upx;
+}
+.enter-nav {
+	width: 686upx;
+	height: 340upx;
+	margin: 60upx auto 0 auto;
+	// box-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);
+	color: #fff;
+	&.exam {
+		background: transparent url(../../static/img/main/btn_examination.png) no-repeat;
+		background-size: 686upx 340upx;
+	}
+	&.training {
+		background: transparent url(../../static/img/main/btn_practice.png) no-repeat;
+		background-size: 686upx 340upx;
+	}
+	.title {
+		font-size: 44upx;
+		line-height: 60upx;
+		margin: 0 0 0 52upx;
+		padding-top: 50upx;
+	}
+	.en {
+		font-size: 32upx;
+		margin: 0 0 0 52upx;
+	}
+	.note {
+		font-size: 26upx;
+		padding: 5upx 20upx;
+		margin: 50upx 50upx 0 52upx;
+		border: 1px solid #f2f2f2;
+		border-radius: 40upx;
+		float: right;
+		opacity: 0.75;
+	}
+}
+.ty-valid-code-view {
+	background-color: $uni-bg-color-grey;
+	height: 900upx;
+	.iconfont {
+		float: right;
+		line-height: $ty-pop-title-height;
+		margin-right: 30upx;
+	}
+	.title {
+		background-color: #fff;
+		text-align: center;
+		font-size: $uni-font-size-lg !important;
+		text-indent: -40upx;
+		line-height: $ty-pop-title-height;
+	}
+	.cont {
+		background-color: $uni-bg-color-grey;
+		margin: 140upx 0 80upx 0;
+	}
+	.note {
+		text-align: center;
+		margin-top: 140upx;
+	}
+}
+
+.btn-enter-exam {
+	margin-top: 50upx;
+	width: 460upx;
+	border-radius: 100upx;
+}
+.mask-layer {
+	background-color: rgba(255, 255, 255, 0.6);
+}
