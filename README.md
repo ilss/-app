@@ -1,6 +1,6 @@
 # 临床思维-APP版
 
-### 前端设计思路
+### 架构设计思路
 ![https://github.com/ilss/lcsw-app/blob/master/static/lcswdt.gif?raw=true](https://github.com/ilss/lcsw-app/blob/master/static/lcswdt.gif?raw=true) 
 
 
