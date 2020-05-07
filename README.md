@@ -1,7 +1,7 @@
 # 临床思维-APP版
 
 ### 架构设计思路
-![](http://www.skrjs.com/wp-content/uploads/2020/04/68747470733a2f2f692e6c6f6c692e6e65742f323032302f30342f31372f4b676b3877477435594e464f524d6f2e6a7067.jpg) 
+![](http://www.skrjs.com/wp-content/uploads/2020/05/lvswapp.gif) 
 
 
 ### 预览图
