@@ -1,5 +1,10 @@
 # 临床思维-APP版
 
+### 技术支持：
+375259904@qq.com
+18629613866
+
+
 ### 架构设计思路
 ![](http://www.skrjs.com/wp-content/uploads/2020/05/lvswapp.gif) 
 
