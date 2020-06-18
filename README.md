@@ -1,8 +1,6 @@
 # 临床思维-APP版
 
-### 技术支持：
-375259904@qq.com  <br/>
-18629613866
+[![](https://skrjs-1300632396.cos.ap-shanghai.myqcloud.com/appStore.png)](https://apps.apple.com/cn/app/id1518528293)
 
 
 ### 架构设计思路
